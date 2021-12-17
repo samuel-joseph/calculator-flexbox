@@ -1,0 +1,140 @@
+body {
+}
+
+.main-container {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: rgb(24, 37, 71);
+  height: 60vh;
+  width: 25vw;
+  border-radius: 20px;
+  border: black 2px solid;
+  align-self: center;
+  padding: 20px 10px;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.casio {
+  color: gray;
+}
+
+.blackThing {
+  background-color: black;
+  width: 50%;
+  height: 80%;
+}
+
+.screen {
+  width: 95%;
+  height: 80px;
+  background-color: rgb(243, 235, 235);
+  border-radius: 5px;
+}
+
+.inner-row-1 {
+  width: 10%;
+  margin-top: 5px;
+}
+
+.inner-row-1 > p {
+  margin: 0 0;
+  padding: 0 0;
+  font-size: 6pt;
+  color: white;
+  text-align: center;
+}
+
+.inner-row-1-button {
+  background-color: rgb(56, 59, 73);
+  border: solid 2px black;
+  height: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.inner-row-1-big {
+  width: 30%;
+}
+
+.inner-row-2-big {
+  width: 30%;
+}
+
+.inner-row-1-big-button {
+  margin-top: 15px;
+  background-color: rgb(56, 59, 73);
+  border: solid 2px black;
+  height: 60px;
+  width: 100%;
+  border-radius: 75px;
+}
+
+.row-container2 {
+  margin: 0 10px;
+  margin-top: -40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row-container2 > div > div {
+  height: 20px;
+  border-radius: 10px;
+}
+
+.row-container3 {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 7.5pt;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.row-container3 > div > div {
+  border-radius: 0;
+  width: 100%;
+}
+
+.row-numbers {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 13pt;
+  text-align: center;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+
+.row-numbers > div {
+  background-color: rgb(56, 59, 73);
+  border: solid 2px black;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.row-numbers > div {
+  width: 15%;
+  /* background-color: red; */
+}
+
+.del {
+  height: 25px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.ac {
+  height: 25px;
+  background-color: red;
+  border-radius: 10px;
+}
